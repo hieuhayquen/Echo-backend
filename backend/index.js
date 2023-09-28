@@ -20,5 +20,5 @@ app.use("/api/songs/", songRoutes);
 app.use("/api/playlists/", playListRoutes);
 app.use("/api/", searchRoutes);
 
-const port = 8080;
-app.listen(port, () => console.log(`Listening on port ${port}...`));
+
+app.listen(process.env.PORT, () => console.log(`Listening on port ${port}...`));
