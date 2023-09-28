@@ -21,4 +21,4 @@ app.use("/api/playlists/", playListRoutes);
 app.use("/api/", searchRoutes);
 
 
-app.listen(process.env.PORT, () => console.log(`Listening on port ${port}...`));
+app.listen(process.env.PORT, () => console.log(`Listening on port ${process.env.PORT}...`));
